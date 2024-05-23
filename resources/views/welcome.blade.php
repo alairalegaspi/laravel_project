@@ -9,8 +9,6 @@
 <body>
 
 <div class="welcome-container">
-    @yield('content')
-
   <h1>NOLITC TIME TRACKER</h1>
   <h4>Select your role</h4>
   <div class="button-container">

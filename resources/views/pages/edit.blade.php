@@ -11,7 +11,7 @@
 <h1>Create</h1>
 <form action="{{ route('store') }}" method="post">
     @csrf
-    @method('post')
+    @method('put')
     <div class="container">
         <label for="">Name: </label>
         <input type="text" name="name" id="name"><br>
